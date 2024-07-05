@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    position: relative;
+    background-color: whitesmoke;
+    border: 30px solid whitesmoke;
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+
+  .left-grid{
+    padding: 20px;
+    font-size: 20px;
+    align-self: center;
+
+  }
+
+  .right-grid{
+    padding: 20px;
+    align-self: right;
+
+  }
+
+  .left-grid .button{
+    text-align: center;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding: 10px;
+    width: 28%;
+    margin-left: 0;
+    
+  }
+
+  .left-grid .button .click{
+    color: whitesmoke;
+  }
+
+  .click:link{
+    text-decoration: none;
+}
+
+  .left-grid .button:hover {
+    background-color: black;
+  }
+
+  img.rounded-corners{
+    border-radius: 25px ;
+  }
+
+.section-intermediate-1{
+  position: relative;
+  margin: 10px;
+}
+
+
+.section-2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.section-3{
+  position: relative;
+  height: 330px;
+  margin: 10px;
+  display: grid;
+  border-radius: 25px ;
+  grid-template-columns: 30% 70%;
+  background-color: green;
+  color: whitesmoke;
+}
+
+
+.section-3 .section-3-left{
+  height: 300px;
+}
+
+.section-3 .section-3-right{
+  margin: 20px;
+  padding: 10px;
+}
+
+img.rounded-corners-1{
+  position: relative;
+  border-radius: 25px ;
+  right: -3%;
+  top:7%
+}
+
+.section-intermediate-2{
+  position: relative;
+  margin: 10px;
+}
+
+.section-4{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.subsection-4{
+  margin: 10px;
+  padding: 30px;
+  width: 400px;
+  border-radius: 25px;
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.subsection-4:hover { 
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+} 
+
+
+
+img.rounded-corners-2{
+  width: 100%;
+  position: relative;
+  border-radius: 25px ;
+  height: 200px;
+  
+}
+
+.section-4-bottom{
+  padding-top: 25px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+
+.section-4-bottom .button{
+  text-align: center;
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 25px;
+  padding: 10px;
+  width: 70%;
+  margin-left: 0;
+  
+}
+
+.section-4-bottom .button .click{
+  color: whitesmoke;
+}
+
+.section-4-bottom .button:hover {
+  background-color: black;
+}
+
+
+.section-4 .subsection-4-words{
+  display: grid;
+  grid-template-columns: 10% auto;
+}
